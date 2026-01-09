@@ -1,7 +1,8 @@
 # Gemini Enterprise: Pass current logged in user information(token) to ADK/AE Agent.
 
+0. python -m venv .venv then source .venv/bin/activate then pip install -r requirements.txt
 1. Create AUTH-ID
 2. Update .env with AUTH-ID and agent.py refer print_tool_context 
 3. Deploy to Agent Engine(AE)
-4. Register AE agent to Gemini Enterprise
+4. Register AE agent to Gemini Enterprise , refer reg-agent.sh
 5. In Gemini Enterprise chat ask for tool context to get user email
